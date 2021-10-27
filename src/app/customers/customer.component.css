@@ -1,3 +1,66 @@
-p {
+#customers {
   font-family: Lato;
+  border-collapse: collapse;
+  width: 30%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: rgb(30, 117, 143);
+  color: white;
+}
+
+.btn {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Lato;
+  border: 1px solid #ddd;
+  text-align: left;
+  background-color: rgb(24, 187, 86);
+  color: white;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: rgb(164, 235, 191);
+}
+
+.btn:hover {
+  background-color: rgb(8, 133, 56);
+}
+
+.btn {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Lato;
+  border: 1px solid #ddd;
+  text-align: left;
+  background-color: rgb(24, 187, 86);
+  color: white;
+  cursor: pointer;
+}
+
+.name {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Lato;
+  border: 1px solid #ddd;
+  text-align: left;
+  color: white;
 }

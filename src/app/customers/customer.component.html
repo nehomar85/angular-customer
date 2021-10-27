@@ -4,13 +4,15 @@
   <input
     type="text"
     name="nombre"
+    class="name"
     [(ngModel)]="customer.Nombre"
     placeholder="Nombre"
     required
-  />
-  <br />
+  /> &nbsp;
+
   <input
     type="button"
+    class="btn"
     value="Add Customer"
     (click)="guardar()"
     [disabled]="forma.invalid"
@@ -19,7 +21,7 @@
 
 <br />
 
-<table border="1">
+<table border="1" id="customers">
   <tr>
     <th>Nombre</th>
   </tr>
