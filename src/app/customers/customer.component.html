@@ -1,12 +1,17 @@
 <br />
 
 <form #forma="ngForm">
-  <label>Nombre: </label>
-  <input type="text" name="nombre" [(ngModel)]="customer.Nombre" required />
+  <input
+    type="text"
+    name="nombre"
+    [(ngModel)]="customer.Nombre"
+    placeholder="Nombre"
+    required
+  />
   <br />
   <input
     type="button"
-    value="Guardar"
+    value="Add Customer"
     (click)="guardar()"
     [disabled]="forma.invalid"
   />
