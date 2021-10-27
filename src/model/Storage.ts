@@ -4,6 +4,8 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root',
 })
+
+// Se crea Clase para almacenar en el LocalStorage el arreglo de Customers
 export class Storage {
   customer: Customer = {
     Nombre: '',

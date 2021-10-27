@@ -13,6 +13,7 @@ export class CustomerComponent {
   // Variable usada para almacenar los customers capturados desde el input.
   customers: Customer[] = [];
 
+  // Se agrega (push) el nuevo Customer en el arreglo (json)
   guardar() {
     var newCustomer = JSON.parse(JSON.stringify(this.customer));
     this.customers.push(newCustomer);
