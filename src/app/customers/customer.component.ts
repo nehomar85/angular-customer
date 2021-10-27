@@ -10,7 +10,7 @@ export class CustomerComponent {
   // Variable usada para capturar datos del formulario.
   customer: Customer = new Customer();
 
-  // Variable usada para almacenar los estudiantes capturados desde el formulario.
+  // Variable usada para almacenar los customers capturados desde el input.
   customers: Customer[] = [];
 
   guardar() {

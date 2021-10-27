@@ -1,5 +1,5 @@
 import { Component, VERSION } from '@angular/core';
-import { Customer } from '../model/Modelo';
+import { Customer } from '../model/Modelos';
 //import { RouterModule, Router } from "@angular/router";
 
 @Component({
@@ -10,5 +10,5 @@ import { Customer } from '../model/Modelo';
 export class AppComponent {
   //constructor(private router: Router) {}
 
-  onEstudiantes() {}
+  onCustomers() {}
 }

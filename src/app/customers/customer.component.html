@@ -1,3 +1,5 @@
+<br />
+
 <form #forma="ngForm">
   <label>Nombre: </label>
   <input type="text" name="nombre" [(ngModel)]="customer.Nombre" required />
@@ -9,6 +11,8 @@
     [disabled]="forma.invalid"
   />
 </form>
+
+<br />
 
 <table border="1">
   <tr>
